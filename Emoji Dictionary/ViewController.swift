@@ -35,6 +35,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return (EmojiArray.count)
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "transitionSegue", sender: "What Up")
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
