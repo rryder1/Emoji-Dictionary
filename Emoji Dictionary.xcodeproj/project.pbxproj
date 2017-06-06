@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7638A0301EE637D60040F4CA /* DefineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638A02F1EE637D60040F4CA /* DefineViewController.swift */; };
 		767AF2741ED3D7F20031CFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AF2731ED3D7F20031CFBE /* AppDelegate.swift */; };
 		767AF2761ED3D7F20031CFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767AF2751ED3D7F20031CFBE /* ViewController.swift */; };
 		767AF2791ED3D7F20031CFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767AF2771ED3D7F20031CFBE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7638A02F1EE637D60040F4CA /* DefineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineViewController.swift; sourceTree = "<group>"; };
 		767AF2701ED3D7F20031CFBE /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		767AF2731ED3D7F20031CFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		767AF2751ED3D7F20031CFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				767AF2731ED3D7F20031CFBE /* AppDelegate.swift */,
 				767AF2751ED3D7F20031CFBE /* ViewController.swift */,
+				7638A02F1EE637D60040F4CA /* DefineViewController.swift */,
 				767AF2771ED3D7F20031CFBE /* Main.storyboard */,
 				767AF27A1ED3D7F20031CFBE /* Assets.xcassets */,
 				767AF27C1ED3D7F20031CFBE /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7638A0301EE637D60040F4CA /* DefineViewController.swift in Sources */,
 				767AF2761ED3D7F20031CFBE /* ViewController.swift in Sources */,
 				767AF2741ED3D7F20031CFBE /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				767AF2841ED3D7F20031CFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
